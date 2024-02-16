@@ -31,4 +31,14 @@ aws iam attach-role-policy --role-name apprunner-role-url-restream \
 
 ```
 
-Then you can start the apprunner service with the appropriate role
+As soon as you are done with that, you can create the apprunner service_
+
+1. Use Source code repo
+2. Connect to github
+3. Select your fork of this repo
+4. As source directory select: /src
+5. Select automatic deployment trigger and click next
+6. Select "Use a configuration file" and click next
+7. Enter a service name and select the created iam instance role.
+8. Click next and the press deploy.
+
