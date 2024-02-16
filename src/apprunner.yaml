@@ -1,8 +1,8 @@
-version: 0.1
-services:
-  default:
-    command:
-      - node express.js
+version: 1.0
+runtime: nodejs18
+build:
+  commands:    
     build:
-      commands:
-        - npm install
+      - npm install                                 
+run:                              
+  command: node express.js
