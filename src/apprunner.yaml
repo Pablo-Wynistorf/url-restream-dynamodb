@@ -1,0 +1,9 @@
+version: 0.1
+services:
+  default:
+    command:
+      - npm
+      - express.js
+    build:
+      commands:
+        - npm install
