@@ -2,7 +2,6 @@ version: 0.1
 services:
   default:
     command:
-      - npm install
       - node express.js
     build:
       commands:
